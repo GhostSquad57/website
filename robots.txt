@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /resources/
+Disallow: /node_modules/
+Allow: /index.html
+Allow: /servers.html
