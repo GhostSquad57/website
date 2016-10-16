@@ -1,5 +1,5 @@
 # https://ghostsquad57.com
-[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?style=flat-square)](https://ghostsquad57.com)
+[![Website](https://img.shields.io/website-up-down-green-red/https/ghostsquad57.com.svg?style=flat-square)](https://ghostsquad57.com)
 [![Twitter Follow](https://img.shields.io/twitter/follow/ghostsquad57.svg?style=social&label=Follow&style=flat-square)](https://twitter.com/GhostSquad57)
 [![License](https://img.shields.io/:license-CC%20BY%20NC%20SA%204.0-blue.svg?style=flat-square)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
 
