@@ -49,6 +49,37 @@ li {
   div.desc {
     margin: 1px;
   }
+  div.alert {
+    margin-right: 1px;
+    margin-left: 1px;
+  }
+}
+
+.alert {
+  opacity: 1;
+  padding: 20px;
+  border: 2px solid white;
+  background-color: #f44336;
+  color: white;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 18px;
+}
+
+.alertbtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.alertbtn:hover {
+  color: black;
 }
 
 table caption {
@@ -170,8 +201,7 @@ div.padded {
 div.banner {
   display: block;
   border: 1px solid;
-  border-radius: 18px;
-  margin: 5%;
+  margin-top: 150px;
 }
 
 div.banner h2 {
@@ -182,8 +212,10 @@ div.banner h2 {
 .banner-desc  {
   text-align: left;
   line-height: 200%;
-  margin: 5%;
   padding: 1%;
+  margin: 1%;
+  border: 1px solid white;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 #minecraft {
