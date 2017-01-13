@@ -200,7 +200,6 @@ div.padded {
 
 div.banner {
   display: block;
-  border: 1px solid;
   margin-top: 150px;
 }
 
@@ -218,6 +217,7 @@ div.banner h2 {
   background: rgba(0, 0, 0, 0.6);
 }
 
+/*
 #minecraft {
   background: url("https://i.imgur.com/PfEVSTm.jpg") no-repeat center fixed;
 }
@@ -241,3 +241,4 @@ div.banner h2 {
 #quake2 {
   background: url("https://i.imgur.com/xliQOco.jpg") no-repeat center fixed;
 }
+*/
