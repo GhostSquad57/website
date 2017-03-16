@@ -20,6 +20,7 @@ li {
   display: inline-block;
 }
 
+
 .topnav {
   position: relative;
   top: 0;
@@ -153,7 +154,7 @@ a:active {
 }
 
 footer {
-  position: fixed;
+  position: fixed; /* keep footer at the bottom of the page even after scrolling */
   z-index: 100;
   left: 0px;
   bottom: 0px;
