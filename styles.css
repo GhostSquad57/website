@@ -14,28 +14,41 @@ html, body {
   padding: 0px;
 }
 
-.topnav ul {
+header {
+  margin-top: 50px;
+}
+
+.center {
+  margin: auto;
+}
+
+.round {
+  border: 1px solid black;
+  border-radius: 256px;
+}
+
+.blur:hover {
+  filter: blur(3px);
+}
+
+ul {
     list-style-type: none; /* prevents markers */
     margin: 0;
     padding: 0;
     font-size: 1.4rem;
 }
 
-.topnav li {
+ul h1 {
+  margin-top: 50px;
+}
+
+li {
   display: inline-block; /* display side-by-side */
 }
 
-.topnav {
-  position: relative;
-  top: 0; /* for alignment */
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.topnav li a {
+div li a {
   display: block;
-  font-size: 1rem;
+  font-size: 2rem;
   color: white; /* elements start white */
   text-align: center;
   padding: 8px 8px;
@@ -43,64 +56,18 @@ html, body {
   transition: background-color 0.2s; /* transition from color to hover color */
 }
 
-.topnav li a:hover {
+div li a:hover {
   background-color: #ffffff; /* color to change on hover of anchor elements */
   color: #1c1c1c;
 }
 
-.topnav li a p {
+li a p {
   margin: 0 0 0 0; /* prevents "p" elements inside the topnav li from creating newlines
                     which would make the height all screwy */
 }
 
-/* low res optimization */
-@media only screen and (max-width: 360px) {
-  div.desc {
-    margin: 1px;
-  }
-  div.alert {
-    margin-right: 1px;
-    margin-left: 1px;
-  }
-}
-
-/* code for alert box used in the servers page */
-.alert {
-  opacity: 1;
-  padding: 20px;
-  border: 2px solid white;
-  background-color: #f44336;
-  color: white;
-  margin-top: 50px; /* margins are for center alignment */
-  margin-left: 50px;
-  margin-right: 50px;
-  border-radius: 18px; /* for rounding edges */
-}
-
-/* code for close button in alert box */
-.alertbtn {
-  margin-left: 15px;
-  color: white;
-  font-weight: bold;
-  float: right;
-  font-size: 22px;
-  line-height: 20px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.alertbtn:hover {
-  color: black; /* on hover, change color of the "x" button for alert box */
-}
-
-nav {
-  text-align: center;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  margin: auto;
-  background: #1c1c1c;
+li img {
+  margin: 25px;
 }
 
 h1,h2,h3,h4,h5,h6 { /* I like serif fonts for headers, mka? */
@@ -121,13 +88,6 @@ p {
   min-width: 65%;*/
 }
 
-p.desc {
-  text-align: left;
-  margin-left: 15%;
-  margin-right: 15%;
-  font-size: 1.2rem;
-}
-
 a:link {
   color: #848484;
   text-decoration: none;
@@ -146,63 +106,7 @@ a:active {
   color: white;
 }
 
-footer {
-  position: fixed; /* keep footer at the bottom of the page even after scrolling */
-  z-index: 100; /* keeps footer infront of everything */
-  left: 0px;
-  bottom: 0px;
-  height: 50px;
-  width: 100%;
-  background: #1c1c1c;
-  overflow: auto; /* allows scrolling footer on low res screens */
-  white-space: nowrap; /* prevents wrapping (linebreak) with many elements */
-}
-
-.social li {
-  border: none;
-  padding-left: 10px;
-  padding-top: 10px;
-  position: relative; /* position element "relative"; 20px left adds 20px to the element's LEFT position */
-  opacity: 0.4; /* base opacity before transition */
-  transition: opacity 0.5s; /* time for opacity to change from 0.4 to 1.0 */
-}
-
-.social li:hover {
-  top: -3px; /* raise when hovering */
-  opacity: 1.0; /* turn solid when hovering */
-}
-
-.social li a:hover {
-  border-bottom: 2px solid white; /* create a small white line at the bottom */
-  padding-bottom: 10px; /* padding for white line */
-}
-
-.social ul {
-    list-style-type: none; /* prevents markers */
-    margin: 0;
-    padding: 0;
-    font-size: 1.4rem;
-}
-
-.social li {
-  display: inline-block; /* displays li items side-by-side */
-}
-
-.centered {
- margin: auto;
- max-width: 100%;
- border: 1px solid;
-}
-
-div.banner {
-  display: block;
-}
-
-div.banner h2 {
-  text-align: center;
-}
-
-div.banner p {
+.textbox p {
   text-align: left;
   line-height: 200%; /* larger space between paragraphs */
   padding: 1%;
@@ -211,30 +115,11 @@ div.banner p {
   background: rgba(0, 0, 0, 0.6);
 }
 
-div.gamelist ul {
-  list-style-type: none;
-  padding: 1%;
-  margin: 1%;
-}
-
-div.gamelist li {
-  padding: 5px;
-}
-
-div.gamelist li a {
-  border: 1px solid white;
-  padding: 5px;
-  background: rgba(0, 0, 0, 0.6);
-}
-
-div.padded {
-  padding-bottom: 100px;
-}
-
 /* hides the display of the server's info until "targeted" */
 #ksp,#dst,#zomboid,#bods,#quake,#quake2 {
   display: none;
 }
+
 /*
  * this is very ugly:
  * selecting every id individually until I can figure out how to select all
@@ -261,4 +146,12 @@ div.padded {
 
 #quake2:target {
   display: block;
+}
+
+footer {
+  background: #1c1c1c;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  width: 100%;
+  margin-top: 100px;
 }
