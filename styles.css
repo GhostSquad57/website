@@ -6,7 +6,7 @@
  * */
 
 html, body {
-  background-color: #333;
+  background-color: #333333;
   color: #ffffff;
   font-family: 'Roboto','Lato','Open Sans',sans-serif;
   text-align: center;
@@ -196,7 +196,6 @@ footer {
 
 div.banner {
   display: block;
-  padding-top: 100px;
 }
 
 div.banner h2 {
@@ -238,7 +237,7 @@ div.padded {
 }
 /*
  * this is very ugly:
- * selecting every id individually until I can figure out how to select all 
+ * selecting every id individually until I can figure out how to select all
  */
 #ksp:target {
   display: block;
