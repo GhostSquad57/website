@@ -18,6 +18,10 @@ header {
   margin-top: 50px;
 }
 
+p {
+  font-size: 1.1rem;
+}
+
 .center {
   margin: auto;
 }
@@ -25,10 +29,27 @@ header {
 .round {
   border: 1px solid black;
   border-radius: 256px;
+  transition: border-radius 0.6s;
+}
+
+.round:hover {
+  border-radius: 10px;
 }
 
 .blur:hover {
   filter: blur(3px);
+}
+
+.closebutton {
+  float: right;
+  font-size: 32px;
+}
+
+code {
+  font: 'Roboto Mono','monospace';
+  color: #008000;
+  background: black;
+  padding: 3px;
 }
 
 ul {

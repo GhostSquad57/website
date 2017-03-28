@@ -1,5 +1,5 @@
 User-agent: *
 Disallow: /resources/
 Disallow: /node_modules/
+Disallow: /git/
 Allow: /index.html
-Allow: /servers.html
