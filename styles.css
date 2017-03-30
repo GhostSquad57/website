@@ -18,8 +18,12 @@ header {
   margin-top: 50px;
 }
 
-p {
+h1+p {
+  text-align: left;
   font-size: 1.1rem;
+  max-width: 760px;
+  margin: auto;
+  line-height: 140%;
 }
 
 .center {
