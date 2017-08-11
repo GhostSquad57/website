@@ -1,3 +1,5 @@
 resources/*
 node_modules/*
 git/*
+files/*
+index.nginx-debian.html
