@@ -141,7 +141,7 @@ a:active {
 }
 
 /* hides the display of the server's info until "targeted" */
-#ksp,#dst,#zomboid,#bods,#quake,#quake2 {
+#ksp,#dst,#bods,#quake,#quake2 {
   display: none;
 }
 
@@ -154,10 +154,6 @@ a:active {
 }
 
 #dst:target {
-  display: block;
-}
-
-#zomboid:target {
   display: block;
 }
 
