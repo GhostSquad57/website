@@ -6,7 +6,7 @@
  * */
 
 html, body {
-  background-color: #333333;
+  background-color: #080808;
   color: #ffffff;
   font-family: 'Roboto','Lato','Open Sans',sans-serif;
   text-align: center;
@@ -174,7 +174,7 @@ a:active {
 }
 
 footer {
-  background: #1c1c1c;
+  background: #0A0A0A;
   padding-bottom: 15px;
   padding-top: 15px;
   width: 100%;
