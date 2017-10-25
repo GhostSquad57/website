@@ -141,7 +141,7 @@ a:active {
 }
 
 /* hides the display of the server's info until "targeted" */
-#ksp,#dst,#bods,#quake,#quake2,#sven {
+#ksp,#dst,#quake,#quake2,#sven {
   display: none;
 }
 
@@ -152,23 +152,15 @@ a:active {
 #ksp:target {
   display: block;
 }
-
 #dst:target {
   display: block;
 }
-
-#bods:target {
-  display: block;
-}
-
 #quake:target {
   display: block;
 }
-
 #quake2:target {
   display: block;
 }
-
 #sven:target {
   display: block;
 }
