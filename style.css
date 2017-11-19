@@ -149,19 +149,7 @@ a:active {
  * this is very ugly:
  * selecting every id individually until I can figure out how to select all
  */
-#ksp:target {
-  display: block;
-}
-#dst:target {
-  display: block;
-}
-#quake:target {
-  display: block;
-}
-#quake2:target {
-  display: block;
-}
-#sven:target {
+#ksp:target,#dst:target,#quake:target,#quake2:target,#sven:target {
   display: block;
 }
 
