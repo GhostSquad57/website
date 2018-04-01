@@ -12,6 +12,11 @@ html, body {
   text-align: center;
   margin: 0px;
   padding: 0px;
+  background-image: url("https://i.imgur.com/XnUmEDv.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
@@ -31,7 +36,6 @@ h1+p {
 }
 
 .round {
-  border: 1px solid black;
   border-radius: 256px;
   transition: border-radius 0.6s;
 }
@@ -67,8 +71,8 @@ ul h1 {
   margin-top: 50px;
 }
 
-li {
-  display: inline-block; /* display side-by-side */
+.servers ul li {
+  display: inline-block;
 }
 
 div li a {
@@ -81,18 +85,26 @@ div li a {
   transition: background-color 0.2s; /* transition from color to hover color */
 }
 
-div li a:hover {
+div.discord a i {
+ font-size: 200px;
+ padding-top: 35px;
+}
+
+div.discord a i:hover {
+  color: #7289DA;
+}
+
+div.social li a:hover {
   background-color: #ffffff; /* color to change on hover of anchor elements */
   color: #1c1c1c;
 }
 
-li a p {
-  margin: 0 0 0 0; /* prevents "p" elements inside the topnav li from creating newlines
-                    which would make the height all screwy */
+div.social ul li {
+  display: inline-block;
 }
 
-li img {
-  margin: 25px;
+div.social a {
+  font-size: 18px;
 }
 
 h1,h2,h3,h4,h5,h6 { /* I like serif fonts for headers, mka? */
@@ -131,25 +143,11 @@ a:active {
   color: white;
 }
 
-.textbox p {
-  text-align: left;
-  line-height: 200%; /* larger space between paragraphs */
-  padding: 1%;
-  margin: 1%;
-  border: 1px solid white;
-  background: rgba(0, 0, 0, 0.6);
-}
-
-/* hides the display of the server's info until "targeted" */
-#ksp,#dst,#quake,#quake2,#sven {
+.hidden-box {
   display: none;
 }
 
-/*
- * this is very ugly:
- * selecting every id individually until I can figure out how to select all
- */
-#ksp:target,#dst:target,#quake:target,#quake2:target,#sven:target {
+#ksp:target,#dst:target,#quake:target,#quake2:target,#sven:target,#pz:target {
   display: block;
 }
 
