@@ -14,47 +14,50 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab|Roboto+Mono|Lato|Open+Sans" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <script src="script.js"></script>
   </head>
 <body>
 
-<div class="servers">
+<header>
+  <button id="serv-btn" onclick="toggleServers()">
+    <i class="fas fa-bars" onclick="toggleServers"></i>
+  </button>
+</div>
   <ul>
-    <li>
-      <a href="#ksp">
-        <img class="round" src="https://i.imgur.com/MyoWzZU.jpg" alt="KSP">
-      </a>
-    </li>
-    <li>
-      <a href="#dst">
-        <img class="round" src="https://i.imgur.com/eATu5vo.jpg" alt="DST">
-      </a>
-    </li>
-    <li>
-      <a href="#quake">
-        <img class="round" src="https://i.imgur.com/nVe7TCI.jpg" alt="QUAKE">
-      </a>
-    </li>
-    <li>
-      <a href="#quake2">
-        <img class="round" src="https://i.imgur.com/ZENzcDO.jpg" alt="QUAKE 2">
-      </a>
-    </li>
-    <li>
-      <a href="#sven">
-        <img class="round" src="https://i.imgur.com/ttKg9ml.png" alt="Sven">
-      </a>
-    </li>
-    <li>
-      <a href="#pz">
-        <img class="round" src="https://i.imgur.com/2bw7NpO.jpg" alt="PZ">
-      </a>
-    </li>
+    <div id="servers" class="social">
+      <li>
+        <a href="#ksp">
+          <img class="round" src="https://i.imgur.com/MyoWzZU.jpg" alt="KSP">
+        </a>
+      </li>
+      <li>
+        <a href="#dst">
+          <img class="round" src="https://i.imgur.com/eATu5vo.jpg" alt="DST">
+        </a>
+      </li>
+      <li>
+        <a href="#quake">
+          <img class="round" src="https://i.imgur.com/nVe7TCI.jpg" alt="QUAKE">
+        </a>
+      </li>
+      <li>
+        <a href="#quake2">
+          <img class="round" src="https://i.imgur.com/ZENzcDO.jpg" alt="QUAKE 2">
+        </a>
+      </li>
+      <li>
+        <a href="#sven">
+          <img class="round" src="https://i.imgur.com/ttKg9ml.png" alt="Sven">
+        </a>
+      </li>
+      <li>
+        <a href="#pz">
+          <img class="round" src="https://i.imgur.com/2bw7NpO.jpg" alt="PZ">
+        </a>
+      </li>
+    </div>
   </ul>
-</div>
-
-<div id="close-btn" class="hidden-box">
-  <i class="fas fa-times"></i>
-</div>
+</header>
 
 <div id="ksp" class="hidden-box">
   <a class="closebutton" href="#">
@@ -152,15 +155,14 @@
 
 <div class="discord">
   <h1>Discord</h1>
-  <p>
-    If you'd like to chat with the owner of this site, or other members of the community, then you can join the Discord channel.
-    <a href="https://discordapp.com/">Discord</a> is a multiplatform VoIP application that can run inside a web browser. It also has a native app for Linux, Mac, Windows, and Mobile.
-  </p>
    <em>click on the logo below to join the Discord channel</em>
    <br>
    <a href="https://discord.gg/r5ksmmE">
    <i class="fab fa-discord fa-fw fa-lg" aria-hidden="true"></i>
   </a>
+</div>
+
+<div class="mobile-padding">
 </div>
 
 <footer>
