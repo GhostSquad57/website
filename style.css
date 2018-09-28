@@ -6,12 +6,34 @@
  * */
 
 html, body {
-  background-color: #080808;
   color: #ffffff;
   font-family: 'Roboto','Lato','Open Sans',sans-serif;
   text-align: center;
   margin: 0px;
   padding: 0px;
+  height: 100%;
+}
+
+.parallax {
+  background-image: url("https://i.imgur.com/C8fE24U.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.infobox {
+  background-image: url("https://i.imgur.com/92nd20a.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.infobox code {
+  background: rgba(0, 0, 0, 0.7);
 }
 
 h1+p {
@@ -22,116 +44,10 @@ h1+p {
   line-height: 140%;
 }
 
-.center {
-  margin: auto;
-}
-
-.round {
-  border-radius: 256px;
-  transition: border-radius 0.3s;
-}
-
-.round:hover {
-  border-radius: 10px;
-}
-
-.blur:hover {
-  filter: blur(3px);
-}
-
-.closebutton {
-  float: right;
-  font-size: 2rem;
-  position: absolute;
-  top: 5px;
-  right: 8px;
-}
-
 code {
-  font-family: 'Roboto Mono','monospace';
-  color: #008000;
-  background: black;
-  padding: 3px;
-}
-
-ul {
-  list-style-type: none; /* prevents markers */
-  margin: 0;
-  padding: 0;
-  font-size: 1.4rem;
-}
-
-header {
-  width: 100%;
-  top: 0px;
-  background: #101010;
-}
-
-header ul li {
-  display: inline-block
-}
-
-header ul li img {
-  height: 3rem;
-  width: 3rem;
-}
-
-#serv-btn {
-  display: none;
-  margin: auto;
-  font-size: 32px;
-  color: white;
-  background-color: #101010;
-  text-decoration: none;
-  text-align: center;
-  border: none;
-}
-
-@media only screen and (max-width: 600px) {
-  header ul li img {
-    height: 2rem;
-    width: 2rem;
-  }
-  #servers {
-    display: none;
-  }
-  #serv-btn {
-    display: block;
-  }
-}
-
-div li a {
-  display: block;
-  font-size: 2rem;
-  color: white; /* elements start white */
-  text-align: center;
-  padding: 8px 8px;
-  text-decoration: none;
-  transition: background-color 0.2s; /* transition from color to hover color */
-}
-
-div.discord {
-  font-size: 200px;
-  margin: auto;
-  padding-top: 75px;
-  z-index: 0;
-}
-
-div.discord a i:hover {
-  color: #7289DA;
-}
-
-div.social li a:hover {
-  background-color: #ffffff; /* color to change on hover of anchor elements */
-  color: #1c1c1c;
-}
-
-div.social ul li {
-  display: inline-block;
-}
-
-div.social a {
-  font-size: 1rem;
+  font-family: 'VT323','monospace';
+  color: #a95d72;
+  font-size: 25px;
 }
 
 h1,h2,h3,h4,h5,h6 { /* I like serif fonts for headers, mka? */
@@ -146,11 +62,6 @@ h1 {
 
 h2 {
   font-size: 2.6rem;
-}
-
-p {
-  /*max-width: 65%;
-  min-width: 65%;*/
 }
 
 a:link {
@@ -171,33 +82,11 @@ a:active {
   color: white;
 }
 
-.hidden-box {
-  display: none;
-  font-size: 1rem;
-}
-
-.hidden-box p {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-#ksp:target,#dst:target,#quake:target,#quake2:target,#sven:target {
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  overflow: auto;
-  background-color: #080808;
-  z-index: 1;
-}
-
 footer {
   font-size: 1rem;
-  background: #101010;
+  background: black;
   padding-bottom: 7px;
-  padding-top: 1px;
+  padding-top: 5px;
   width: 100%;
   position: fixed;
   bottom: 0px;

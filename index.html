@@ -3,172 +3,47 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8">
-    <title>GhostSquad57 - Official Website</title>
-    <meta property="og:image" content="https://i.imgur.com/WPpM9kD.png">
-    <meta name="description" content="The Home of GhostSquad57">
-    <meta name="keywords" content="Linux Gaming, GhostSquad57, Linux">
+    <title>welcome</title>
+    <meta name="description" content="homepage for ghostsquad57">
+    <meta name="keywords" content="Linux Gaming, GhostSquad57, Linux, lain">
     <meta name="author" content="Keith Henderson Jr">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- for mobile scaling  -->
     <meta name="referrer" content="no-referrer">
     <link rel="stylesheet" type="text/css" href="/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab|Roboto+Mono|Lato|Open+Sans" rel="stylesheet" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab|Roboto+Mono|Lato|Open+Sans|VT323" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <script src="script.js"></script>
   </head>
+
 <body>
+<audio autoplay loop>
+  <source src="https://my.mixtape.moe/zvxhwe.aac" type="audio/aac">
+</audio>
+<div class="parallax"></div>
 
-<header>
-  <button id="serv-btn" onclick="toggleServers()">
-    <i class="fas fa-bars" onclick="toggleServers"></i>
-  </button>
-</div>
-  <ul>
-    <div id="servers" class="social">
-      <li>
-        <a href="#ksp">
-          <img class="round" src="https://i.imgur.com/MyoWzZU.jpg" alt="KSP">
-        </a>
-      </li>
-      <li>
-        <a href="#dst">
-          <img class="round" src="https://i.imgur.com/eATu5vo.jpg" alt="DST">
-        </a>
-      </li>
-      <li>
-        <a href="#quake">
-          <img class="round" src="https://i.imgur.com/nVe7TCI.jpg" alt="QUAKE">
-        </a>
-      </li>
-      <li>
-        <a href="#quake2">
-          <img class="round" src="https://i.imgur.com/ZENzcDO.jpg" alt="QUAKE 2">
-        </a>
-      </li>
-      <li>
-        <a href="#sven">
-          <img class="round" src="https://i.imgur.com/ttKg9ml.png" alt="Sven">
-        </a>
-      </li>
-    </div>
-  </ul>
-</header>
-
-<div id="ksp" class="hidden-box">
-  <a class="closebutton" href="#">
-    <i class="fa fa-times" aria-hidden="true"></i>
-  </a>
-  <h2>Kerbal Space Program</h2>
-  <p>
-    • IP Address: ghostsquad57.com<br>
-    • Port: 6702<br>
-    • Software: <a href="https://d-mp.org/">DMP</a> is used to host the server<br>
-    • Mods: <a href="https://mods.curse.com/ksp-mods/kerbal/228561-kerbal-inventory-system-kis">KIS</a> and <a href="https://mods.curse.com/ksp-mods/kerbal/223900-kerbal-attachment-system-kas">KAS</a><br>
-    • Gamemode: Sandbox<br>
-    • Difficulty: Normal<br>
-    • WarpMode: Subspace<br>
-    • Maxplayers: 10
-  </p>
-</div>
-
-<div id="dst" class="hidden-box">
-  <a class="closebutton" href="#">
-    <i class="fa fa-times" aria-hidden="true"></i>
-  </a>
-  <h2>Don't Starve Together</h2>
-  <p>
-    • IP Address: ghostsquad57.com<br>
-    • Port: 10998<br>
-    • Mods: None<br>
-    • Gamemode: Endless - Cooperative<br>
-    • Maxplayers: 10<br>
-    • Special Thanks: Thanks to Redakted for helping setup Caves!
-  </p>
-</div>
-
-<div id="quake" class="hidden-box">
-  <a class="closebutton" href="#">
-    <i class="fa fa-times" aria-hidden="true"></i>
-  </a>
-  <h2>QUAKE</h2>
-  <p>
-    • IP Address: ghostsquad57.com<br>
-    • Port: 28501<br>
-    • Software: <a href="http://nquake.com/">nQuakesv</a><br>
-    • Mods: KTX and QWFWD<br>
-    • Gamemode: Free-For-All (FFA)<br>
-    • Maps: dm4, dm6 and hate<br>
-    • Maxplayers: 8
-  </p>
-</div>
-
-<div id="quake2" class="hidden-box">
-  <a class="closebutton" href="#">
-    <i class="fa fa-times" aria-hidden="true"></i>
-  </a>
-  <h2>QUAKE 2</h2>
-  <p>
-    • IP Address: ghostsquad57.com<br>
-    • Port: 27910<br>
-    • Software: <a href="http://skuller.net/q2pro/">q2pro</a><br>
-    • Mods: None<br>
-    • Gamemode: Free-For-All (FFA)<br>
-    • Maps: q2dm1 through q2dm8<br>
-    • Maxplayers: 8
-  </p>
-</div>
-
-<div id="sven" class="hidden-box">
-  <a class="closebutton" href="#">
-    <i class="fa fa-times" aria-hidden="true"></i>
-  </a>
-  <h2>Sven Co-Op</h2>
-  <p>
-    • IP Address: ghostsquad57.com<br>
-    • Port: 28015<br>
-    • Mods: <a href="https://forums.svencoop.com/showthread.php/44067-Plugin-Anti-Rush">Anti-Rush</a><br>
-    • Maps: Standard Sven Maps<br>
-    • Maxplayers: 8
-  </p>
-</div>
-
-<div class="discord">
-  <a href="https://discord.gg/r5ksmmE">
-   <i class="fab fa-discord fa-fw fa-lg" aria-hidden="true"></i>
-  </a>
+<div class="infobox">
+    <code>
+      <u>Discord</u>
+      https://discord.gg/r5ksmmE
+      <br>
+      <u>KSP</u>
+      Port: 6702
+      <br>
+      <u>Sven</u>
+      Port: 28015
+      <br>
+      <u>QUAKE</u>
+      Port: 28501
+      <br>
+      <u>QUAKE 2</u>
+      Port: 27910
+      <br>
+      <u>Don't Starve</u>
+      Port: 10998
+    </code>
 </div>
 
 <footer>
-  <div class="social">
-      <ul>
-        <li>
-          <a href="mailto:keithhendersonjr@gmail.com">
-            <i class="fa fa-envelope fa-fw fa-lg" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/GhostSquad57">
-            <i class="fab fa-twitter fa-fw fa-lg" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/channel/UCQZbfMs3ytzjT0hLEvJPvcQ"><i class="fab fa-youtube fa-fw fa-lg" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.twitch.tv/ghostsquad57"><i class="fab fa-twitch fa-fw fa-lg" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://keybase.io/ghostsquad57"><i class="fa fa-key fa-fw fa-lg" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/GhostSquad57/website"><i class="fab fa-github fa-fw fa-lg" aria-hidden="true"></i>
-          </a>
-        </li>
-      </ul>
-  Except where otherwise noted, this website by Keith Henderson Jr is licensed under the <a rel="license" href="https://raw.githubusercontent.com/GhostSquad57/website/master/LICENSE">MIT</a> license
+  <code>Let's all love Lain</code>
 </footer>
 
 </body>
