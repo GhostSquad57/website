@@ -33,53 +33,16 @@ html, body {
 }
 
 .infobox code {
+  text-align: center;
+  position: relative;
+  top: 45%;
   background: rgba(0, 0, 0, 0.7);
-}
-
-h1+p {
-  text-align: left;
-  font-size: 1.1rem;
-  max-width: 760px;
-  margin: auto;
-  line-height: 140%;
 }
 
 code {
   font-family: 'VT323','monospace';
   color: #a95d72;
   font-size: 25px;
-}
-
-h1,h2,h3,h4,h5,h6 { /* I like serif fonts for headers, mka? */
-  font-family: serif;
-  font-weight: normal;
-}
-
-h1 {
-  font-size: 3rem;
-  padding-top: 50px;
-}
-
-h2 {
-  font-size: 2.6rem;
-}
-
-a:link {
-  color: #848484;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #848484;
-}
-
-a:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-a:active {
-  color: white;
 }
 
 footer {
