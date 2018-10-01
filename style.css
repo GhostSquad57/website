@@ -7,7 +7,7 @@
 
 html, body {
   color: #ffffff;
-  font-family: 'Roboto','Lato','Open Sans',sans-serif;
+  font-family: sans-serif;
   text-align: center;
   margin: 0px;
   padding: 0px;
@@ -51,7 +51,7 @@ code {
 }
 
 h1,h2,h3,h4,h5,h6 { /* I like serif fonts for headers, mka? */
-  font-family: "Roboto Slab",serif;
+  font-family: serif;
   font-weight: normal;
 }
 
@@ -91,4 +91,10 @@ footer {
   position: fixed;
   bottom: 0px;
   z-index: 1;
+}
+
+@font-face {
+  font-family: "VT323";
+  src: url("resources/vt323-regular-webfont.woff2") format("woff2"),
+       url("resources/vt323-regular-webfont.woff2") format("woff");
 }
