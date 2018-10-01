@@ -2,4 +2,6 @@ User-agent: *
 Disallow: /resources/
 Disallow: /node_modules/
 Disallow: /git/
+Disallow: /files/
+Disallow: /resources/
 Allow: /index.html
