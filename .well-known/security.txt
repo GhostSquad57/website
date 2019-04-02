@@ -1,0 +1,19 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: https://keybase.io/ghostsquad57
+Encryption: https://keybase.io/ghostsquad57/pgp_keys.asc?fingerprint=380f9e079d0a9c3a2327dedb01c47df1ea727efb
+Preferred-Languages: en
+Canonical: https://ghostsquad57.com/.well-known/security.txt
+Policy: If you find any vulnerabilities, please get in contact with me via Keybase or by email keithhendersonjr (at) gmail (dot) com
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCgAdFiEELASTq8QBd3KkeeooH3aThYeU7U0FAlyi2L0ACgkQH3aThYeU
+7U26Egf8DqYtm6rJ93w5u9Hsg0bgLm3tBjlksuGEa9r8QeN6YKs1XLoHtNEBK6ni
+6NZxdPQZTmkrEorzx99ND47Sd3dpPrZzEbL9Wd2CVXzho3oRAL6IdAGAhYkf0Mm+
+F+uYcn6ZzyEnUGKQHh1CbcVE3qpqWTt/Hw9E5cJehKQU8CcJDOaQ7dMa16AwKdwi
+4rfi8pdphYBfLSWuJOoTjojawZxpvKyVZg0eesZsS263l7nY0DLhwmmQgCwi4hGx
+fBuqxjfI5wUgd9Lj1AjzvdRa5hFPI7bcoVf/FSgzVHQRdpiAEgkKg9mVjDirP/p9
+G/nItmcFCUNzuYzYFaIeg+5EmpDfCw==
+=jxtc
+-----END PGP SIGNATURE-----

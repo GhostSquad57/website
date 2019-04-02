@@ -1,6 +1,11 @@
 resources/*
 node_modules/*
+<<<<<<< HEAD
 git/*
+=======
+.git/*
+cgit/*
+>>>>>>> moved some stuff around and added dnt-policy and security.txt
 files/*
 resources/*
 index.nginx-debian.html
